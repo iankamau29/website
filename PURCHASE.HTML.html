@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BILLING</title>
+    <ul>
+         <li><a  href="tables.html">Home</a></li>
+          <li><a href="forms.html ">News</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/about">About</a></li>
+        <li><a href="signin.html"> Sign in</a> </li>
+        <li><a CLASS="active" href="PURCHASE.HTML.html"> cart </a> </li>
+    </ul>
+    <style >
+     form{
+width: 470px;
+         justify-content: center;
+     }
+     label,select{
+         width: 50%;
+         margin-bottom: 20px;
+         margin-top: 20px;
+
+     }
+         ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+        display:flex;
+        justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+button{
+    padding: 1%;
+    width: 50%;
+}
+</style>
+</head>
+<header>
+    <H1 STYLE="text-align: center;font-family: Cambria,fantasy;border-top: 1px solid grey;border-bottom: 1px solid grey">CART</H1>
+</header>
+<body>
+    <div style="float: left;width: 50%">
+            <form>
+
+                    <h2>CONTACT</h2>
+                    <input placeholder="Email or MObile Number" type="email" name="enumber">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1"> Promotional Adds</label>
+                    <h1> DELIVERY</h1>
+                    <INPUT TYPE="checkbox" id="checkbox2">
+                    <label for="checkbox2">Shipping</label><br>
+                    <input type="checkbox" id="checkbox3">
+                    <label for="checkbox3">In Store Pickup</label><br>
+                            <select name="country">
+                                <option> Kenya </option>
+                                <option> Tanzania</option>
+                                <option> uganda </option>
+                                <option> Rwanda </option>
+                                <option> Burundi </option>
+                                <option> Somalia </option>
+                                <option> Drc congo </option>
+                            </select>
+                    <input type="text" placeholder="FIRST NAME">
+                    <input type="text" placeholder="SECOND NAME">
+                    <input type="number" placeholder="ADDRESS">
+                    <INPUT type="text" placeholder="CITY">
+                    <input type="number" placeholder="POSTALCODE">
+                    <INPUT TYPE="number" PLACEHOLDER="PHONE NUMBER"><br>
+                    <INPUT TYPE="checkbox" ID="CHECKBOX4">
+                        <LABEL FOR="CHECKBOX4">SAVE INFO FOR NEXT TIME</LABEL>
+                            <SELECT>
+                                <OPTION> Mombasa  500</OPTION>
+                                <option>  Nairobi 100 </option>
+                                <option> Nakuru 300 </option>
+                                <option> Kisumu 500 </option>
+                            </SELECT>
+<a href="Billing.html">
+  pay Now
+</a>
+                      
+
+            </form>
+    </div>
+<div style="float: left;background-color: whitesmoke;width:50%;background-size: cover">
+
+    <img style="width: 20%" id="shoe" src="data:image/jpeg;base64,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">
+
+
+        <label for="shoe">Dunk lows 1998 4,500</label><br>
+
+    <input style="padding: 1%;width: 50%" type="text" placeholder="DISCOUNT CODE OR GIFT CARD">
+    <p> Subtotal :                 ksh4,500</p>
+    <p> shipping   :</p>
+</div>
+
+</body>
+</html>

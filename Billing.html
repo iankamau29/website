@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>billing</title>
+        <style >
+        input,select{
+            display: flex;
+            justify-content: center;
+            border: none;
+            width: 50%;
+
+            border-bottom:solid grey;
+            background: none;
+            color: gray;
+            margin: auto;
+        }
+
+        form{
+            width: 470px;
+            background-size: cover;
+            background-image: url("images/2275431.jpg");
+            border-radius: 10px;
+
+            color: blue;
+            padding: 20px;
+            margin: 70px auto auto;
+            image-rendering: smooth;
+            image-resolution: from-image;
+        }
+        #button{
+            justify-content: center;
+            background-color: green;
+            border-radius: 30px;
+            margin-top: 50px;
+            transition-duration: 0.4s;
+            color: black;
+        }
+        #button:hover{
+            background-color: skyblue;
+            color: white;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <header style="text-align: center;">
+    BILLING
+</header>
+            <label>
+                <input type="number" placeholder="card number">
+            </label><br>
+            <label>
+                <input  style="padding: 0.5%;border-radius: 10px" type="text" placeholder="Holders Name">
+            </label><br>
+            <label>
+                <input type="number" placeholder="cvc">
+            </label><br>
+            <label>
+                <input type="date" placeholder="expiry date ">
+            </label><br>
+            <label>
+                <input type="number" placeholder="postalcode">
+            </label><br>
+            <label>
+                <input type="text" placeholder="city">
+            </label><br>
+        </form>
+    </div>
+</body>
+</html>
